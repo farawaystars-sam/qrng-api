@@ -26,6 +26,7 @@ This project presents the development and deployment of a Quantum Random Number 
   - Browser
   - Python 3.10 or higher
 
+## Usage
 ### Steps to serve locally
 1. **Clone the repository**
    ```bash
@@ -48,18 +49,18 @@ curl -X GET https://qrng-api-v001-wmoc4p3wpa-uc.a.run.app/random_bit_stringq?n=<
 curl -X GET https://qrng-api-v001-wmoc4p3wpa-uc.a.run.app/random_intq?max=<your-max-value>&min=<your-min-value>
 ```
 
-### For Further help
+## For Further help
 For further help required read *Help/doc.md* file.
 
-### Acknowledgements
+## Acknowledgements
 1. **Literature**:
   - Partial Loopholes Free Device Independent Quantum Random Number Generator Using IBM’s Quantum Computers, [link] (https://arxiv.org/pdf/2309.05299)
   - and others
 2. **Youtube**:
     - Follow this [link.](https://www.youtube.com/watch?v=2DeLrLEagU0&list=PLKMY3XNPiQ7t-LORep_Hj47qOM8qVcuii&index=10)
 
-### Contribute
+## Contribute
 If you wish to contribute towards this project, Please feel free to fork the repository and initiate a pull request.
 
-### Contact
+## Contact
 For any questions or inquiries, please reach out at [farawaystars-sam@github.com].
