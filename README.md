@@ -45,9 +45,14 @@ Similar to running locally, clone and navigate to the test scripts, and simply u
 <br>
 Use bash command:
 ```bash
-curl -X GET https://qrng-api-v001-wmoc4p3wpa-uc.a.run.app/random_bit_stringq?n=<your-n-value>
-curl -X GET https://qrng-api-v001-wmoc4p3wpa-uc.a.run.app/random_intq?max=<your-max-value>&min=<your-min-value>
+curl -X GET "https://qrng-api-v001-wmoc4p3wpa-uc.a.run.app/random_bit_string?n=<your-n-value>"
+curl -X GET "https://qrng-api-v001-wmoc4p3wpa-uc.a.run.app/random_int?max=<your-max-value>&min=<your-min-value>"
 ```
+<br> *or*
+<br>
+Use browser to browse the link:
+1. https://qrng-api-v001-wmoc4p3wpa-uc.a.run.app/random_bit_string?n=<your-n-value>
+2. https://qrng-api-v001-wmoc4p3wpa-uc.a.run.app/random_int?max=<your-max-value>&min=<your-min-value>
 
 ## For Further help
 For further help required read *Help/doc.md* file.
